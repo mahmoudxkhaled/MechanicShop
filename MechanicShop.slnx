@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="MechanicShop.Api/MechanicShop.Api.csproj" />
+    <Project Path="MechanicShop.Application/MechanicShop.Application.csproj" Id="0cb63961-d4e5-4c33-bbe5-3ba7a1627939" />
+    <Project Path="MechanicShop.Client/MechanicShop.Client.csproj" Id="35cc5c65-6e41-45cc-bbcc-eda7d769104e" />
+    <Project Path="MechanicShop.Contracts/MechanicShop.Contracts.csproj" Id="940da47d-931f-4363-9bb7-b98bec4cd724" />
+    <Project Path="MechanicShop.Domain/MechanicShop.Domain.csproj" Id="5cb6b3c8-acef-4d49-87ff-388cbc3f3004" />
+    <Project Path="MechanicShop.Infrastructure/MechanicShop.Infrastructure.csproj" Id="663ec706-655b-42eb-a553-d2858b0271d2" />
+  </Folder>
+  <Folder Name="/tests/" />
+</Solution>
