@@ -11,7 +11,7 @@ public readonly record struct Error
     {
         Code = code;
         Description = description;
-        Kind = kind;
+        Kind = type;
     }
 
     public string Code { get; }

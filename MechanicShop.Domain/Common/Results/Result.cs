@@ -99,7 +99,7 @@ public sealed class Result<TValue> : IResult<TValue>
         {
             return onError(Errors);
         }
-    }>
+    }
 
     public static implicit operator Result<TValue>(Error error) => new Result<TValue>(error);
     public static implicit operator Result<TValue>(List<Error> errors) => new Result<TValue>(errors);
